@@ -1,16 +1,7 @@
 {
   "permissions": {
     "defaultMode": "bypassPermissions",
-    "allow": [
-      "Bash(*)",
-      "Read(*)",
-      "Write(*)",
-      "Edit(*)",
-      "Glob(*)",
-      "Grep(*)",
-      "WebFetch(*)",
-      "WebSearch(*)"
-    ]
+    "allow": ["Bash(*)", "Read(*)", "Write(*)", "Edit(*)", "Glob(*)", "Grep(*)", "WebFetch(*)", "WebSearch(*)"]
   },
-  "enabledMcpjsonServers": ["next-devtools"]
+  "enabledMcpjsonServers": ["chrome-devtools"]
 }
